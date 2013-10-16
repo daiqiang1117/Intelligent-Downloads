@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Intelligent Downloads",
+  "description": "Show all information of file before it created",
+  "version": "1.0",
+  "minimum_chrome_version": "26.0.1428",
+
+  "browser_action": {
+    "default_popup": "ids.html",
+    "persistent": false
+  },
+
+  "permissions": [
+    "downloads"
+  ]
+}
